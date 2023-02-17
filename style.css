@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-size: 72px;
+}
+h1{
+    font-size: 72px;
+}
+p {
+    font-size: 60px;
+  }
+audio{
+    position:fixed;
+    top:10px;
+    left:10px;
+}
+
+@media screen and (max-width : 570px) {
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 28px;
+    }
+}
